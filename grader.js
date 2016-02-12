@@ -19,6 +19,8 @@ var assertFileExists = function(infile)
     console.log("%s does not exist. Exiting.", instr);
     process.exit(1)
   }
+  
+  return instr;
 };
 
 var cheerioHtmlFile = function(htmlfile)
